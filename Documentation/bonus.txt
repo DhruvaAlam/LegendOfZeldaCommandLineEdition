@@ -1,0 +1,7 @@
+We implemented the ability to allow users to create their own maps with as many chambers as they would like.
+The map should be called defaultfloor.txt and placed in the same folder as the project.
+The only requirement is that the top and bottom borders of the map are made with '-' characters and that the left and right borders are made with "|" characters.
+We also require that there are at least a total of 42 empty (.) tiles in the map.
+The ensure that the game is actually playable, the user should create their own passages between chambers. 
+Doing so generates objects randomly.
+Alternatively, the user can create any number of floors with the items generated in the map and feed it in the command line.
